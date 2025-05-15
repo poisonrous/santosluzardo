@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\components",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\src\\components\\NewPatient.jsx",
   "PreviewInSolutionExplorer": false
 }

@@ -218,13 +218,6 @@ export default function Home() {
           </div>
           <div className={"center"}>
             <Button
-                variant={"primary"}
-                children={"Preguntas frecuentes"}
-                onClick={() => navigate("/preguntas-frecuentes")}
-            />
-          </div>
-          <div className={"center"}>
-            <Button
                 variant={"secondary"}
                 children={theme === 'dark' ? <BsFillSunFill /> : <BsFillMoonStarsFill />}
                 onClick={toggleTheme}

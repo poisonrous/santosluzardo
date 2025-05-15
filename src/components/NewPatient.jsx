@@ -31,12 +31,12 @@ function NewPatient({ backClick }) {
   const [address, setAddress] = useState("");
   const [sex, setSex] = useState("");
   const [phone, setPhone] = useState("");
-  const [illness, setIllness] = useState("diabetes");
+  const [illness, setIllness] = useState("Diabetes");
   const [med, setMed] = useState("");
   const [presentation, setPresentation] = useState("");
   const [quantity, setQuantity] = useState("");
   const [priority, setPriority] = useState("");
-  const [enfermedades, setEnfermedades] = useState([]);
+  const [enfermedades, setEnfermedades] = useState(["Diabetes", "Hipertensión", "Cancer"]);
 
   const handleSave = () => {
     if (!name || !lastName || !documento || !phone || !priority) {
@@ -306,13 +306,13 @@ function NewPatient({ backClick }) {
             <div key={e.id} className="illness-option">
               <input
                 type="radio"
-                id={e.id}
+                id={e}
                 name="illness"
-                value={e.id}
-                checked={illness === e.id}
+                value={e}
+                checked={illness === e}
                 onChange={(e) => setIllness(e.target.value)}
               />
-              <label htmlFor={e.name}>{e.name}</label>
+              <label htmlFor={e}>{e}</label>
             </div>
           ))}
         </div>

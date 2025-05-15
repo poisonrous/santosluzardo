@@ -110,13 +110,6 @@ export default function Consulta() {
             alt=""
           />
         </div>
-        <div className={"center"}>
-          <Button
-            variant={"primary"}
-            children={"Preguntas frecuentes"}
-            onClick={() => navigate("/preguntas-frecuentes")}
-          />
-        </div>
       </div>
       <div className={"container faq"}>
         <Resultado />
