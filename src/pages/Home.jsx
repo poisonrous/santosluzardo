@@ -48,13 +48,6 @@ const Login = () => {
         return;
       }
 
-      /*if (!res.ok) {
-        setError(res.msg);
-        setIsLoading(false);
-
-        return;
-      }*/
-
 
       if (documento === "28231061" && contrasena ==="28231061"){
         LocalStorage.Post("token", "cualquiervaina");
@@ -219,7 +212,7 @@ export default function Home() {
           <h1>Llevando salud a los más necesitados</h1>
           <div className={"center"}>
             <img
-                src="https://www.nicepng.com/png/detail/204-2049937_logo-de-farmacia-png.png"
+                src="https://cdn-icons-png.flaticon.com/128/3655/3655581.png"
                 alt="Logo de Farmacia"
             />
           </div>

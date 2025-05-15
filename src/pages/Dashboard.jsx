@@ -63,7 +63,7 @@ export default function Dashboard() {
         <aside className={`panel ${isPanelOpen ? "open" : "closed"}`}>
           <div className="panel-title">
             <img
-                src="https://www.nicepng.com/png/detail/204-2049937_logo-de-farmacia-png.png"
+                src="https://cdn-icons-png.flaticon.com/128/3655/3655581.png"
                 alt=""
             />
             <h3>CCCD</h3>
